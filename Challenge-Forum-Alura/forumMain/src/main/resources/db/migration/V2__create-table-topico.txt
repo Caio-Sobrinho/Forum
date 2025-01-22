@@ -1,0 +1,21 @@
+
+
+create table usuarios (
+    id Int auto_increment primary key,
+    nome varchar(255) not null,
+    email varchar(255) unique not null,
+    senha varchar(255) not null
+);
+
+create table topicos(
+
+    id bigint not null auto_increment,
+    titulo varchar(100) not null,
+    mensagem varchar(1000) not null,
+    data_criacao DATETIME DEFAULT CURRENT_TIMESTAMP,
+    estado tinyint default 1,
+    autor int not null,
+    curso enum('FRONTEND','BACKEND','CYBERSECURITY','UXUIDESIGN'),
+    foreign key (autor) references usuarios(id),
+    primary KEY (id)
+);
