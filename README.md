@@ -1,4 +1,4 @@
-forumAlura
+
 Sobre o Projeto
 O forumAlura é uma aplicação desenvolvida como um sistema de CRUD (Criar, Ler, Atualizar e Deletar) para gerenciar tópicos de um fórum. O projeto utiliza o Spring Boot e incorpora autenticação e autorização através de Spring Security com JWT (JSON Web Tokens). Ele foi criado com o propósito de gerenciar tópicos que contêm as seguintes informações:
 
