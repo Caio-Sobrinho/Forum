@@ -1,5 +1,3 @@
-Aqui está a reescrita completa, com as palavras reformuladas, emojis diferentes e o mesmo sentido preservado:
-
 ---
 
 # forumAlura
@@ -11,26 +9,20 @@ O **forumAlura** é uma aplicação desenvolvida como um sistema de CRUD (Criar,
 - **Mensagem**: Conteúdo principal do tópico.  
 - **Autor**: Usuário responsável pela criação do tópico.  
 - **Curso**: Indica o curso relacionado ao tópico.  
-- **Data de Criação**: Registro do momento em que o tópico foi criado.  
+- **Data de Criação**: Registro do momento em que o tópico foi criado.
 
-📋 Além disso, a aplicação vem documentada com o **Swagger**, permitindo uma interface interativa para explorar e testar os endpoints disponíveis.
+---
 
 🔧 O projeto também utiliza **Flyway** para gerenciar as migrações do banco de dados, com scripts de configuração armazenados em arquivos no formato `.txt`.
 
 ---
-
-### Funcionalidades  
-💡 **Gerenciamento de Tópicos (CRUD)**  
-- Criar, visualizar, atualizar e deletar tópicos.  
-- Cada tópico possui título, mensagem, autor, curso associado e data de criação.
 
 🔒 **Autenticação e Autorização com JWT**  
 - Implementação de segurança com **Spring Security**.  
 - Usuários precisam estar autenticados para acessar as operações do sistema.  
 - O **token JWT** é gerado no login e utilizado para validar as requisições subsequentes.  
 
-📝 **Documentação Interativa com Swagger**  
-- A API está documentada com **Swagger**, facilitando a navegação e execução dos endpoints diretamente pela interface gráfica.
+---
 
 📂 **Migrações com Flyway**  
 - Gerenciamento eficiente das migrações do banco de dados utilizando **Flyway**.  
@@ -60,7 +52,6 @@ O **forumAlura** é uma aplicação desenvolvida como um sistema de CRUD (Criar,
 
 ### Endpoints da API  
 
-🛠️ Abaixo estão alguns dos principais endpoints implementados:  
 
 1. **Autenticação de Usuário**  
    - **Rota:** `/login`  
@@ -106,8 +97,3 @@ O **forumAlura** é uma aplicação desenvolvida como um sistema de CRUD (Criar,
    - **Rota:** `/tópicos/{id}`  
    - **Método:** DELETE  
    - **Descrição:** Remove um tópico baseado no ID fornecido.  
-
----
-
-🎯 **Resumo:**  
-O forumAlura é uma aplicação completa e robusta para gestão de tópicos em fóruns, com segurança integrada, documentação prática e ferramentas modernas que simplificam tanto o desenvolvimento quanto o uso.
