@@ -1,5 +1,3 @@
-Segue o texto reescrito como README corrigido, sem erros de formatação YAML e pronto para uso:
-
 ---
 
 # forumAlura
